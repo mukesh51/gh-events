@@ -6,7 +6,7 @@ on:
     branches:
       - master
       - feat/**
-      - dev-*
+      - dev*
 
   workflow_dispatch:
 
@@ -14,7 +14,7 @@ on:
     branches:
       - master
       - feat/**
-      - dev-*
+      - dev*
     paths-ignore:
       - '.github/workflows/*'
 jobs:
